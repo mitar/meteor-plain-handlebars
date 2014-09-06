@@ -1,5 +1,7 @@
 Package.describe({
-  summary: "Unmodified Handlebars 1.0.0, for both client and server"
+  summary: "Unmodified Handlebars 1.0.0, for both client and server",
+  version: "1.0.1",
+  git: "https://github.com/pfafman/meteor-plain-handlebars.git"
 });
 
 
@@ -13,6 +15,7 @@ Package._transitional_registerBuildPlugin({
 
 
 Package.on_use(function (api) {
+  api.versionsFrom("METEOR@0.9.0");
   api.export('PlainHandlebars');
   api.export('PlainTemplate');
   api.add_files(

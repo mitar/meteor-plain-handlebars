@@ -15,9 +15,9 @@ the server, and you like Handlebars.
 
 ## Version
 
-1.0.0.2  (Handlebars version 1.0.0, this packaging release 2).
+1.0.1  (Handlebars version 1.0.0, this packaging release 1 ).
 
-This package works with Meteor 0.6.5 and above only.
+This package works with Meteor 0.9 and above only.
 
 
 ## API
